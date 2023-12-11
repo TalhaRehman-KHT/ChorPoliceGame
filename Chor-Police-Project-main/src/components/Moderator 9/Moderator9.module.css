@@ -1,0 +1,100 @@
+.container {
+  margin-top: 10px;
+  border: 5px solid black;
+  padding: 0px;
+  width: 50vh;
+  border-radius: 30px;
+  height: 92vh;
+}
+
+.Box {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
+.box1 {
+  text-align: center;
+}
+
+.Box2 {
+  padding-inline: 20px;
+}
+
+.box2 {
+  display: flex;
+
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.Boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box3 {
+  padding-inline: 20px;
+}
+
+.box3 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-bottom: 7px solid black;
+  border-radius: 10x;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.box3r {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Box4 {
+  padding-inline: 20px;
+}
+.box4 {
+  display: flex;
+  text-align: center;
+
+  border-bottom: 7px solid black;
+  border-radius: 10x;
+  align-items: center;
+  gap: 15px;
+}
+
+.Box5 {
+  padding-inline: 20px;
+}
+
+.box5 {
+  display: flex;
+  text-align: center;
+
+  border-bottom: 7px solid black;
+  border-radius: 10x;
+}
+
+.Box6 {
+  padding-inline: 20px;
+}
+.box6 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.fonts {
+  font-size: 15px;
+}
+.kickout {
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  width: 81px;
+  color: white;
+  background-color: black;
+  font-family: "Patrick Hand";
+  cursor: pointer;
+}

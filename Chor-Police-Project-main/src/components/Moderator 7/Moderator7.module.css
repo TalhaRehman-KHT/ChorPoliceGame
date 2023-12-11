@@ -1,0 +1,98 @@
+.container {
+  border: 5px solid black;
+  padding: 10px;
+  width: 50vh;
+  border-radius: 30px;
+  height: auto;
+}
+
+.Box {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  font-weight: bold;
+  padding-inline: 20px;
+}
+.box1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.Box2 {
+  /* border:  2px solid red; */
+  font-size: 20px;
+  /* margin-top: 40px; */
+  padding-inline: 20px;
+}
+
+.box2 {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.Boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box3 {
+  /* margin-top: 20px; */
+  padding-inline: 20px;
+}
+
+.box3 {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  border-bottom: 5px solid black;
+  border-radius: 10x;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.Box4 {
+  /* margin-top: 20px; */
+  padding-inline: 20px;
+}
+.box4 {
+  display: flex;
+  text-align: center;
+  /* margin-top: 15px; */
+  border-bottom: 5px solid black;
+  border-radius: 10x;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.Box5 {
+  /* margin-top: 20px; */
+  padding-inline: 20px;
+}
+
+.box5 {
+  display: flex;
+  text-align: center;
+  /* margin-top: 15px; */
+  border-bottom: 5px solid black;
+  border-radius: 10x;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.Box6 {
+  /* margin-top: 20px; */
+  padding-inline: 20px;
+}
+.box6 {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.fonts {
+  font-size: 15px;
+}

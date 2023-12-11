@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent {
+  border: 5px solid black;
+  border-radius: 30px;
+  width: 50vh;
+  height: 92vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+
+.title {
+  color: #1b1b1b;
+  margin: 10px;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+}
+
+.avatars {
+  display: flex;
+  height: 11vh;
+}
+
+.avatars img {
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  transition: border 0.3s ease-in-out;
+}
+
+.avatars img:hover {
+  border: 3px solid red;
+}
+
+.avatars img.selected {
+  border: 3px solid #00bcd4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 50vh;
+}
+
+.next-btn {
+  padding: 12px;
+  margin: 50px;
+  border-radius: 10px;
+  width: 100px;
+  color: white;
+  background-color: #1b1b1b;
+  border: none;
+  font-family: "Patrick Hand";
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .parent {
+    width: 44vh;
+    height: 80vh;
+    margin-bottom: 15%;
+  }
+}

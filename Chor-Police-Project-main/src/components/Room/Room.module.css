@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Patrick+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent {
+  border: 5px solid black;
+  border-radius: 30px;
+  width: 50vh;
+  height: 92vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+
+.title {
+  color: #1b1b1b;
+  margin: 10px;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+}
+
+h4 {
+  color: #1b1b1b;
+
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-field {
+  margin-top: 10px;
+}
+input {
+  padding: 7px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: "Patrick Hand";
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.join-btn {
+  padding: 8px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 90px;
+  color: #1b1b1b;
+  background-color: white;
+  font-family: "Patrick Hand";
+  cursor: pointer;
+}
+.create-btn {
+  padding: 8px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 93px;
+  color: #1b1b1b;
+  background-color: white;
+  font-family: "Patrick Hand";
+  cursor: pointer;
+}
+p {
+  color: #1b1b1b;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "Patrick Hand";
+}
+@media only screen and (max-width: 425px) {
+  .parent {
+    width: 44vh;
+    height: 80vh;
+    margin-bottom: 15%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .heading {
+    font-size: 23px;
+  }
+}

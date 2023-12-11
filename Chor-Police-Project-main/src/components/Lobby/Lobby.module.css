@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Patrick+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent {
+  border: 5px solid black;
+  border-radius: 30px;
+  width: 50vh;
+  height: 92vh;
+}
+h3 {
+  color: #1b1b1b;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-inline: 3%;
+  justify-content: space-between;
+  height: 26vh;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-inline: 3%;
+}
+.avatars {
+  display: flex;
+  height: 11vh;
+  flex-direction: column;
+  align-items: center;
+}
+.avatars img {
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+.sbr {
+  color: #1b1b1b;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Patrick Hand";
+  margin-top: 20%;
+}
+.team {
+  margin-inline: 3%;
+  margin-bottom: 20px;
+}
+.names {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-family: "Patrick Hand";
+}
+
+@media only screen and (max-width: 425px) {
+  .parent {
+    width: 44vh;
+    height: 80vh;
+    margin-bottom: 15%;
+  }
+  .avatars p {
+    font-size: 10px;
+  }
+  .footer {
+    margin-top: 0px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .sbr {
+    margin-top: 10%;
+    font-size: 20px;
+  }
+}
